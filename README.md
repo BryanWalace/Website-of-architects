@@ -31,9 +31,9 @@ A tabela abaixo lista as principais tecnologias e bibliotecas usadas no desenvol
 
 Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
-1.  **Clone o repositório:**
+1. **Clone o repositório:**
     ```bash
-    git clone [https://github.com/BryanWalace/Website-of-architects.git]
+    git clone https://github.com/BryanWalace/Website-of-architects.git
     ```
 
 2.  **Navegue até a pasta do projeto:**
