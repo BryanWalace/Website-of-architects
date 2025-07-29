@@ -8,7 +8,7 @@ import iconPhone from '../assets/icons/phone.svg';
 import iconEmail from '../assets/icons/email.svg';
 import iconFacebook from '../assets/icons/facebook.svg';
 import iconTwitter from '../assets/icons/twitter.svg';
-import iconLinkedin from '../assets/icons/linkedin.svg';
+import iconLinkedin from '../assets/icons/LinkedIn.svg';
 import iconPinterest from '../assets/icons/pinterest.svg';
 
 function Footer() {
