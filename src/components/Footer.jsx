@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
-import logoFooter from '../assets/images/logo-digital-project.png';
+import logoFooter from '../assets/images/logo-digital-project-white.png';
 import iconAddress from '../assets/icons/location.svg';
 import iconPhone from '../assets/icons/phone.svg';
 import iconEmail from '../assets/icons/email.svg';
@@ -13,7 +13,7 @@ import iconPinterest from '../assets/icons/pinterest.svg';
 
 function Footer() {
   return (
-    <footer className="footer-fixed">
+    <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-column logo-column">
           <img src={logoFooter} alt="Digital Project Logo" className="footer-logo" />
@@ -22,11 +22,11 @@ function Footer() {
         <div className="footer-column">
           <h3 className="footer-title">Information</h3>
           <ul className="footer-links">
-            <li><Link to="home_section" smooth={true} duration={500}>Main</Link></li>
-            <li><Link to="gallery_section" smooth={true} duration={500}>Gallery</Link></li>
-            <li><Link to="projects_section" smooth={true} duration={500}>Projects</Link></li>
-            <li><Link to="certifications_section" smooth={true} duration={500}>Certifications</Link></li>
-            <li><Link to="contact_section" smooth={true} duration={500}>Contacts</Link></li>
+            <li><Link to="/">Main</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/certifications">Certifications</Link></li>
+            <li><Link to="/contact">Contacts</Link></li>
           </ul>
         </div>
 
@@ -51,16 +51,16 @@ function Footer() {
         <div className="footer-column">
           <h3 className="footer-title">Social Media</h3>
           <ul className="footer-social-icons">
-            <li><a href="https://facebook.com"><img src={iconFacebook} alt="Facebook" /></a></li>
-            <li><a href="https://twitter.com"><img src={iconTwitter} alt="Twitter" /></a></li>
-            <li><a href="https://linkedin.com"><img src={iconLinkedin} alt="LinkedIn" /></a></li>
-            <li><a href="https://pinterest.com"><img src={iconPinterest} alt="Pinterest" /></a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src={iconFacebook} alt="Facebook" /></a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src={iconTwitter} alt="Twitter" /></a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><img src={iconLinkedin} alt="LinkedIn" /></a></li>
+            <li><a href="https://pinterest.com" target="_blank" rel="noopener noreferrer"><img src={iconPinterest} alt="Pinterest" /></a></li>
           </ul>
         </div>
       </div>
 
       <div className="footer-copyright">
-        <p>© 2024 All Rights Reserved</p>
+        <p>© 2025 All Rights Reserved</p>
       </div>
     </footer>
   );

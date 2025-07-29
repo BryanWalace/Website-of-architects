@@ -1,39 +1,38 @@
 import React from 'react';
-import { Element } from 'react-scroll';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import GalleryPage from './pages/GalleryPage';
+import ProjectsPage from './pages/ProjectsPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
+import CertificationsPage from './pages/CertificationsPage';
+import ContactPage from './pages/ContactPage';
 
-import HomeProjectsSection from './components/HomeProjectsSection';
-import GallerySection from './components/GallerySection';
-import CertificationsSection from './components/CertificationsSection';
-import ContactSection from './components/ContactSection';
 
 function App() {
   return (
-    <div className="app-container">
-      <Header />
-      
-      <main>
-        <Element name="home_section">
-          <HomeProjectsSection />
-        </Element>
-        <Element name="gallery_section">
-          <GallerySection />
-        </Element>
-        <Element name="projects_section">
-          <HomeProjectsSection />
-        </Element>
-        <Element name="certifications_section">
-          <CertificationsSection />
-        </Element>
-        <Element name="contact_section">
-          <ContactSection />
-        </Element>
-      </main>
+    <Router>
+      <div className="app-container">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
 
-      <Footer />
-    </div>
+            <Route path="/projects" element={<ProjectsPage />} />
+            
+            <Route path="/projects/:projectId" element={<ProjectDetailPage />} />
+
+            <Route path="/certifications" element={<CertificationsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

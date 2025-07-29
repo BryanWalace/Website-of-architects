@@ -1,13 +1,14 @@
 # Portfólio de Arquitetura "Digital Project"
 
-Este é um projeto de front-end que recria um design de um portfólio de arquitetura, originalmente feito no Figma. O site foi desenvolvido como uma "Single Page Application" (SPA), onde a navegação é baseada em rolagem suave entre as diferentes seções da página.
+Este é um projeto de front-end que recria um design de um portfólio de arquitetura, originalmente feito no Figma. O site foi desenvolvido como uma aplicação de múltiplas páginas (MPA) utilizando React Router para a navegação.
 
 ![Project Preview](image_projects.png)
 
 ## ✨ Funcionalidades
 
 - **Layout Fiel ao Design:** Interface construída para ser uma réplica fiel do design proposto no Figma.
-- **Navegação com Rolagem Suave:** Utilização da biblioteca `react-scroll` para uma experiência de usuário fluida ao navegar entre as seções.
+- **Navegação entre Páginas:** Utilização da biblioteca `react-router-dom` para uma navegação fluida entre as diferentes páginas do site (Home, Galeria, Projetos, etc.).
+- **Rotas Dinâmicas:** Página de detalhes de projetos gerada dinamicamente com base no ID do projeto na URL.
 - **Componentização:** O projeto é estruturado com componentes reutilizáveis em React, como `Header`, `Footer` e `Button`, para um código limpo e de fácil manutenção.
 - **Estrutura Moderna:** Desenvolvido com Vite para um ambiente de desenvolvimento rápido e otimizado.
 
@@ -17,13 +18,13 @@ A tabela abaixo lista as principais tecnologias e bibliotecas usadas no desenvol
 
 | Ferramenta/Tecnologia | Versão (no momento do desenvolvimento) |
 | --------------------- | ------------------------------------- |
-| **Vite** | `~7.0.4`                              |
-| **React** | `^19.1.0`                             |
-| **react-dom** | `^19.1.0`                             |
-| **react-scroll** | `^1.9.3`                              |
-| **JavaScript (ES6+)** | Padrão do navegador                   |
-| **CSS3** | Módulos de componentes                |
-| **HTML5** | Semântico                             |
+| **Vite** | `~7.0.4` |
+| **React** | `^19.1.0` |
+| **react-dom** | `^19.1.0` |
+| **react-router-dom** | `^6.24.0` |
+| **JavaScript (ES6+)** | Padrão do navegador |
+| **CSS3** | Módulos de componentes |
+| **HTML5** | Semântico |
 
 *(As versões podem ser encontradas no seu arquivo `package.json`)*
 
@@ -38,7 +39,7 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd seu-repositorio
+    cd Website-of-architects
     ```
 
 3.  **Instale as dependências:**
@@ -54,6 +55,18 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
 
 ## 📜 Histórico de Versões (Changelog)
+
+### v0.2.0 - 29 de Julho de 2025
+- 🔄 **Refatoração para Multi-Page App (MPA):**
+  - O projeto foi convertido de uma SPA com `react-scroll` para uma MPA com `react-router-dom`.
+  - `Header`, `Footer` e `Button` atualizados para usar a navegação por rotas.
+- 🎨 **Implementação de Todas as Páginas:**
+  - Todas as páginas do design foram criadas e estilizadas (`HomePage`, `GalleryPage`, `ProjectsPage`, `ProjectDetailPage`, `CertificationsPage`, `ContactPage`).
+- **🔧 Correções de Estilo Globais:**
+  - `index.css` reescrito para corrigir o layout (sticky footer, fundo branco, etc).
+  - Fonte 'Roboto' implementada em todo o site.
+- **🖼️ Adição de Assets:**
+  - Todas as imagens e ícones do projeto foram adicionados.
 
 ### v0.1.0 - 28 de Julho de 2025
 - 🎉 **Lançamento Inicial do Projeto.**
