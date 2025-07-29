@@ -56,6 +56,12 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
 ## 📜 Histórico de Versões (Changelog)
 
+### v0.3.0 - 29 de Julho de 2025
+- ✨ **Implementação Completa da HomePage:**
+  - Construção de todos os componentes de seção da página principal: `HeroSection`, `AboutSection`, `MissionSection`, `HomeProjectsSection` e `ContactSection`.
+  - Estilização de cada seção em arquivos CSS dedicados para corresponder ao design do Figma.
+  - A `HomePage` agora monta todas as seções para formar a landing page completa.
+
 ### v0.2.0 - 29 de Julho de 2025
 - 🔄 **Refatoração para Multi-Page App (MPA):**
   - O projeto foi convertido de uma SPA com `react-scroll` para uma MPA com `react-router-dom`.
