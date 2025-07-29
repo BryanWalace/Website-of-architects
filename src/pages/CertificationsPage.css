@@ -1,0 +1,15 @@
+.certifications-page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 180px; 
+  padding-bottom: 100px;
+  color: black;
+
+  min-height: 80vh; 
+  background-color: #fff;
+}
+
+
+.certifications-page .section-heading {
+  text-align: left;
+}

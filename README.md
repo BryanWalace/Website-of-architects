@@ -56,6 +56,12 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
 ## 📜 Histórico de Versões (Changelog)
 
+### v1.0.0 - 29 de Julho de 2025
+- 🚀 **Versão 1.0.0 - Lançamento Inicial Completo!**
+- Implementação de todas as páginas secundárias do site: `GalleryPage`, `ProjectsPage`, `ProjectDetailPage` (com rota dinâmica), `CertificationsPage` e `ContactPage`.
+- Criação de uma estrutura de dados centralizada (`ProjectData.js`) para gerenciar as informações dos projetos.
+- O site agora está funcionalmente completo, com todas as seções e páginas do design original implementadas.
+
 ### v0.3.0 - 29 de Julho de 2025
 - ✨ **Implementação Completa da HomePage:**
   - Construção de todos os componentes de seção da página principal: `HeroSection`, `AboutSection`, `MissionSection`, `HomeProjectsSection` e `ContactSection`.

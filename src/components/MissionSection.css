@@ -1,0 +1,47 @@
+.mission-section {
+  padding: 80px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.mission-main-title {
+  font-size: 42px;
+  font-weight: 300;
+  color: #c5c5c5;
+  margin-bottom: 100px;
+}
+
+.mission-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  text-align: left;
+}
+
+.mission-item {
+  position: relative;
+  padding-left: 120px;
+  display: flex;
+  align-items: center;
+  min-height: 150px;
+}
+
+.background-number {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 250px;
+  font-weight: 700;
+  color: #f2f2f2;
+  z-index: 1;
+  line-height: 1;
+}
+
+.mission-text {
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}

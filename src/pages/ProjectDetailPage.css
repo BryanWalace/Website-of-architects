@@ -1,0 +1,35 @@
+.project-detail-page {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.detail-main-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+.detail-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  margin-top: 50px;
+  align-items: flex-start;
+}
+
+.detail-side-image {
+  width: 100%;
+  height: auto;
+}
+
+.detail-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.project-not-found {
+  padding-top: 150px;
+  text-align: center;
+}
