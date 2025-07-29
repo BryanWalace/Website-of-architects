@@ -2,21 +2,27 @@
 
 Este é um projeto de front-end que recria um design de um portfólio de arquitetura, originalmente feito no Figma. O site foi desenvolvido como uma aplicação de múltiplas páginas (MPA) utilizando React Router para a navegação.
 
-![Project Preview](image_projects.png)
+### 🚀 [Veja a Demonstração ao Vivo](https://website-of-architects-lemon.vercel.app/)
 
-## ✨ Funcionalidades
+---
+
+### ✨ Funcionalidades
 
 - **Layout Fiel ao Design:** Interface construída para ser uma réplica fiel do design proposto no Figma.
-- **Navegação entre Páginas:** Utilização da biblioteca `react-router-dom` para uma navegação fluida entre as diferentes páginas do site (Home, Galeria, Projetos, etc.).
+- **Navegação entre Páginas:** Utilização da biblioteca `react-router-dom` para uma navegação fluida entre as diferentes páginas do site.
 - **Rotas Dinâmicas:** Página de detalhes de projetos gerada dinamicamente com base no ID do projeto na URL.
-- **Componentização:** O projeto é estruturado com componentes reutilizáveis em React, como `Header`, `Footer` e `Button`, para um código limpo e de fácil manutenção.
+- **Componentização:** O projeto é estruturado com componentes reutilizáveis em React para um código limpo e de fácil manutenção.
 - **Estrutura Moderna:** Desenvolvido com Vite para um ambiente de desenvolvimento rápido e otimizado.
 
-## 🛠️ Tecnologias Utilizadas
+### 🎨 Design Original
 
-A tabela abaixo lista as principais tecnologias e bibliotecas usadas no desenvolvimento deste projeto.
+O layout deste projeto foi baseado em um design disponível na Comunidade Figma.
 
-| Ferramenta/Tecnologia | Versão (no momento do desenvolvimento) |
+-   **[Link para o Figma](https://www.figma.com/community/file/1532117431698854331)**
+
+### 🛠️ Tecnologias Utilizadas
+
+| Ferramenta/Tecnologia | Versão |
 | --------------------- | ------------------------------------- |
 | **Vite** | `~7.0.4` |
 | **React** | `^19.1.0` |
@@ -26,7 +32,6 @@ A tabela abaixo lista as principais tecnologias e bibliotecas usadas no desenvol
 | **CSS3** | Módulos de componentes |
 | **HTML5** | Semântico |
 
-*(As versões podem ser encontradas no seu arquivo `package.json`)*
 
 ## 🚀 Como Executar o Projeto
 
@@ -55,6 +60,12 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
 
 ## 📜 Histórico de Versões (Changelog)
+
+### v1.0.1 - 29 de Julho de 2025
+- 🔧 **Correção de Build:**
+  - Corrigido um erro de sensibilidade de maiúsculas/minúsculas no caminho de importação de um ícone que estava causando falha no build da Vercel.
+- **📝 Documentação:**
+  - Adicionado o link da demonstração ao vivo no `README.md`.
 
 ### v1.0.0 - 29 de Julho de 2025
 - 🚀 **Versão 1.0.0 - Lançamento Inicial Completo!**
