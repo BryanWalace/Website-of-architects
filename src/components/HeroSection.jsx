@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 import Button from './common/Button';
+import { Link } from 'react-router-dom';
 
 import heroImage from '../assets/images/hero-building.jpg';
 
@@ -25,7 +26,9 @@ function HeroSection() {
         <div className="hero-image-column">
           <img src={heroImage} alt="Modern architectural building" />
           <div className="view-project-button">
+            <Link to="/projects">
               <Button text="View Project →" variant="secondary" />
+            </Link>
           </div>
         </div>
       </div>

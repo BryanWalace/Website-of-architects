@@ -68,7 +68,8 @@
 }
 
 .footer-social-icons img {
-  width: 20px;
+  width: 30px;
+  height: 30px;
   transition: opacity 0.3s ease;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomeProjectsSection.css';
+import { Link } from 'react-router-dom';
 import Button from './common/Button';
 
 import projectImg1 from '../assets/images/image-p1.png';
@@ -38,7 +39,9 @@ function HomeProjectsSection() {
         </div>
         
         <div className="see-more-container">
-          <Button text="See More →" variant="primary" />
+          <Link to="/projects">
+            <Button text="See More →" variant="primary" />
+          </Link>
         </div>
       </div>
     </section>
