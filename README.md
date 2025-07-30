@@ -61,6 +61,13 @@ Para visualizar este projeto em sua máquina local, siga os passos abaixo:
 
 ## 📜 Histórico de Versões (Changelog)
 
+### v1.0.2 - 29 de Julho de 2025
+- 🔗 **Correções de Navegação:**
+  - Ajustados links de botões e elementos para direcionarem corretamente às páginas designadas.
+- 🎨 **Ajustes Visuais:**
+  - Modificado o separador entre o logo e o título para melhor alinhamento.
+  - Corrigido o tamanho dos ícones de redes sociais no rodapé para consistência visual.
+
 ### v1.0.1 - 29 de Julho de 2025
 - 🔧 **Correção de Build:**
   - Corrigido um erro de sensibilidade de maiúsculas/minúsculas no caminho de importação de um ícone que estava causando falha no build da Vercel.
